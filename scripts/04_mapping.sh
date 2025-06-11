@@ -13,6 +13,8 @@ OUTDIR="results/mapping/"
 mkdir $OUTDIR
 #index the refrence sequence
 bwa index $REF
+# Generate .fai index file for the reference
+samtools faidx $REF
 #map the sample against reference
 bwa mem $REF $READ_F $READ_R > $OUTDIR/${SRA_ID}.sam
 #converting .sam to .bam
