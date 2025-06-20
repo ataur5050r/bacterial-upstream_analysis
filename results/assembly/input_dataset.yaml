@@ -1,0 +1,7 @@
+- "left reads":
+  - "/home/rayhan-sikdar/bacterial-upstream_analysis/results/trimming/SRR33893847_1_paired.fastq"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/home/rayhan-sikdar/bacterial-upstream_analysis/results/trimming/SRR33893847_2_paired.fastq"
+  "type": "paired-end"

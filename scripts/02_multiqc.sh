@@ -5,10 +5,12 @@ source ~/miniconda3/etc/profile.d/conda.sh
 conda activate multiqc
 
 # Create QC report directory
-mkdir -p results/combine_qc/
+INDIR="results/qc/"
+OUTDIR="results/multiqc/"
+mkdir -p $OUTDIR
 
 # Run MultiQC on fastqc report files in raw_reads
 echo "Running MultiQC on FastQC reports..."
-multiqc results/qc/ -o results/combine_qc/
+multiqc $INDIR -o $OUTDIR
 echo "MultiQC analysis complete!"
 

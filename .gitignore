@@ -1,18 +1,20 @@
-# Ignore raw and processed sequencing data
+# Ignore raw reads
 data/raw_reads/
-data/clean_reads/
-results/mapping/
-results/assembly/
-results/quast/
+*.fastq
+*.fastq.gz
+
+# Ignore trimmed reads
+results/trimming/
+*_paired.fastq
+*_unpaired.fastq
+
+# Ignore mapping and alignment files
 *.sam
 *.bam
-*.fastq
-*.fasta
-*.gz
+*.bai
+results/mapping/
 
-# Ignore any other huge files
-*.vcf
-*.idx
-*.fai
-*.log
-*.tmp
+# Ignore SPAdes intermediate and large files (optional)
+results/assembly/tmp/
+results/assembly/spades.log
+results/assembly/K*/  # SPAdes k-mer stage folders

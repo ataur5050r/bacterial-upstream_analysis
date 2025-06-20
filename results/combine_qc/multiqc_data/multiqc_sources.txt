@@ -1,3 +1,0 @@
-Module	Section	Sample Name	Source
-FastQC	all_sections	SRR33893847_1	/home/rayhan-sikdar/bacterial-upstream_analysis/results/qc/SRR33893847_1_fastqc.zip
-FastQC	all_sections	SRR33893847_2	/home/rayhan-sikdar/bacterial-upstream_analysis/results/qc/SRR33893847_2_fastqc.zip

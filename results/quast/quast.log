@@ -1,0 +1,66 @@
+/home/rayhan-sikdar/miniconda3/envs/quast/bin/quast.py results/assembly/contigs.fasta -o results/quast/
+
+Version: 5.3.0
+
+System information:
+  OS: Linux-6.11.0-26-generic-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.13.3
+  CPUs number: 12
+
+Started: 2025-06-20 22:31:10
+
+Logging to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/quast.log
+NOTICE: Maximum number of threads is set to 3 (use --threads option to set it manually)
+
+CWD: /home/rayhan-sikdar/bacterial-upstream_analysis
+Main parameters: 
+  MODE: default, threads: 3, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+Contigs:
+  Pre-processing...
+  results/assembly/contigs.fasta ==> contigs
+
+2025-06-20 22:31:10
+Running Basic statistics processor...
+  Contig files: 
+    contigs
+  Calculating N50 and L50...
+    contigs, N50 = 298141, L50 = 8, auN = 313091.6, Total length = 6920326, GC % = 66.11, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/basic_stats/GC_content_plot.pdf
+  Drawing contigs GC content plot...
+    saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/basic_stats/contigs_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 2x)...
+    saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/basic_stats/coverage_histogram.pdf
+  Drawing contigs coverage histogram (bin size: 2x)...
+    saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/basic_stats/contigs_coverage_histogram.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2025-06-20 22:31:11
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2025-06-20 22:31:11
+RESULTS:
+  Text versions of total report are saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/report.html
+  PDF version (tables and plots) is saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/report.pdf
+  Icarus (contig browser) is saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/icarus.html
+  Log is saved to /home/rayhan-sikdar/bacterial-upstream_analysis/results/quast/quast.log
+
+Finished: 2025-06-20 22:31:11
+Elapsed time: 0:00:01.597192
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

@@ -1,0 +1,11 @@
+name: bwa-sam
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - bwa
+  - samtools
+  - freebayes
+  - tabix
+  - bcftools
+

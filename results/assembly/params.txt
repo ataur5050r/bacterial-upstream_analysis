@@ -1,0 +1,33 @@
+Command line: /home/rayhan-sikdar/miniconda3/envs/spades/bin/spades.py	-1	/home/rayhan-sikdar/bacterial-upstream_analysis/results/trimming/SRR33893847_1_paired.fastq	-2	/home/rayhan-sikdar/bacterial-upstream_analysis/results/trimming/SRR33893847_2_paired.fastq	-o	/home/rayhan-sikdar/bacterial-upstream_analysis/results/assembly	--memory	4	--only-assembler	--isolate	-k	21,33,55,77	
+
+System information:
+  SPAdes version: 4.2.0
+  Python version: 3.13.3
+  OS: Linux-6.11.0-26-generic-x86_64-with-glibc2.39
+
+Output dir: /home/rayhan-sikdar/bacterial-upstream_analysis/results/assembly
+Mode: ONLY assembling (without read error correction)
+Debug mode is turned OFF
+
+Dataset parameters:
+  Isolate mode
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/home/rayhan-sikdar/bacterial-upstream_analysis/results/trimming/SRR33893847_1_paired.fastq']
+      right reads: ['/home/rayhan-sikdar/bacterial-upstream_analysis/results/trimming/SRR33893847_2_paired.fastq']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+Assembly parameters:
+  k: [21, 33, 55, 77]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+  Assembly graph output will use GFA v1.2 format
+Other parameters:
+  Dir for temp files: /home/rayhan-sikdar/bacterial-upstream_analysis/results/assembly/tmp
+  Threads: 16
+  Memory limit (in Gb): 4
+

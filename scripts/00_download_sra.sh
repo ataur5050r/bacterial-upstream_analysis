@@ -6,7 +6,7 @@ source ~/miniconda3/etc/profile.d/conda.sh
 conda activate ncbi-sra
 
 # List of SRA accessions to download
-ACCESSIONS=("SRR33893847")
+mapfile -t ACCESSIONS < data/accession.txt
 
 # Create output directory if it doesn't exist
 mkdir -p data/raw_reads/

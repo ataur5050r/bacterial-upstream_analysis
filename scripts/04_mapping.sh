@@ -3,7 +3,7 @@
 source ~/miniconda3/etc/profile.d/conda.sh
 conda activate bwa-sam
 # define sra_id of your read
-SRA_ID=("SRR33893847")
+SRA_ID=$(head -n 1 data/accession.txt)
 #define necessery path
 REF="data/reference/reference.fasta"
 READ_F="data/raw_reads/${SRA_ID}_1.fastq"
